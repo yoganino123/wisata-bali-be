@@ -5,7 +5,7 @@
     "title": "Wisata-Bali",
     "contact": {}
   },
-  "host": "localhost:3000",
+  "host": "wisata-bali-be.herokuapp.com",
   "basePath": "/",
   "securityDefinitions": {},
   "schemes": [
@@ -20,11 +20,11 @@
   "paths": {
     "/admin/wisata": {
       "get": {
-        "summary": "localhost:3000/admin/wisata",
+        "summary": "wisata-bali-be.herokuapp.com/admin/wisata",
         "tags": [
           "Wisata"
         ],
-        "operationId": "localhost:3000/admin/wisata",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/wisata",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -38,11 +38,11 @@
         }
       },
       "post": {
-        "summary": "localhost:3000/admin/wisata",
+        "summary": "wisata-bali-be.herokuapp.com/admin/wisata",
         "tags": [
           "Wisata"
         ],
-        "operationId": "Postlocalhost:3000/admin/wisata",
+        "operationId": "Postwisata-bali-be.herokuapp.com/admin/wisata",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -91,11 +91,11 @@
     },
     "/admin/wisata/2": {
       "get": {
-        "summary": "localhost:3000/admin/wisata/2",
+        "summary": "wisata-bali-be.herokuapp.com/admin/wisata/2",
         "tags": [
           "Wisata"
         ],
-        "operationId": "localhost:3000/admin/wisata/2",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -109,11 +109,11 @@
         }
       },
       "put": {
-        "summary": "localhost:3000/admin/wisata/2",
+        "summary": "wisata-bali-be.herokuapp.com/admin/wisata/2",
         "tags": [
           "Wisata"
         ],
-        "operationId": "Putlocalhost:3000/admin/wisata/2",
+        "operationId": "Putwisata-bali-be.herokuapp.com/admin/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -162,11 +162,11 @@
     },
     "/admin/wisata/1": {
       "delete": {
-        "summary": "localhost:3000/admin/wisata/3",
+        "summary": "wisata-bali-be.herokuapp.com/admin/wisata/3",
         "tags": [
           "Wisata"
         ],
-        "operationId": "localhost:3000/admin/wisata/3",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/wisata/3",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -182,11 +182,11 @@
     },
     "/admin/users": {
       "get": {
-        "summary": "localhost:3000/admin/users",
+        "summary": "wisata-bali-be.herokuapp.com/admin/users",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/admin/users",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/users",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -200,11 +200,11 @@
         }
       },
       "post": {
-        "summary": "localhost:3000/admin/users",
+        "summary": "wisata-bali-be.herokuapp.com/admin/users",
         "tags": [
           "User"
         ],
-        "operationId": "Postlocalhost:3000/admin/users",
+        "operationId": "Postwisata-bali-be.herokuapp.com/admin/users",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -246,11 +246,11 @@
     },
     "/admin/users/1": {
       "get": {
-        "summary": "localhost:3000/admin/users/1",
+        "summary": "wisata-bali-be.herokuapp.com/admin/users/1",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/admin/users/1",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/users/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -264,11 +264,11 @@
         }
       },
       "put": {
-        "summary": "localhost:3000/admin/users/1",
+        "summary": "wisata-bali-be.herokuapp.com/admin/users/1",
         "tags": [
           "User"
         ],
-        "operationId": "Putlocalhost:3000/admin/users/1",
+        "operationId": "Putwisata-bali-be.herokuapp.com/admin/users/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -295,11 +295,11 @@
     },
     "/admin/users/3": {
       "delete": {
-        "summary": "localhost:3000/admin/users/3",
+        "summary": "wisata-bali-be.herokuapp.com/admin/users/3",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/admin/users/3",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/users/3",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -315,11 +315,11 @@
     },
     "/user": {
       "get": {
-        "summary": "localhost:3000/user",
+        "summary": "wisata-bali-be.herokuapp.com/user",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/user",
+        "operationId": "wisata-bali-be.herokuapp.com/user",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -335,11 +335,11 @@
     },
     "/user/category/2": {
       "get": {
-        "summary": "localhost:3000/user/category/2",
+        "summary": "wisata-bali-be.herokuapp.com/user/category/2",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/user/category/2",
+        "operationId": "wisata-bali-be.herokuapp.com/user/category/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -355,11 +355,11 @@
     },
     "/user/wisata/4": {
       "post": {
-        "summary": "localhost:3000/user/wisata/2",
+        "summary": "wisata-bali-be.herokuapp.com/user/wisata/2",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/user/wisata/2",
+        "operationId": "wisata-bali-be.herokuapp.com/user/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -385,11 +385,11 @@
     },
     "/user/wisata/addKomentar/3": {
       "post": {
-        "summary": "localhost:3000/user/wisata/addKomentar/3",
+        "summary": "wisata-bali-be.herokuapp.com/user/wisata/addKomentar/3",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/user/wisata/addKomentar/3",
+        "operationId": "wisata-bali-be.herokuapp.com/user/wisata/addKomentar/3",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -432,11 +432,11 @@
     },
     "/user/wisata/5": {
       "put": {
-        "summary": "localhost:3000/user/wisata/2",
+        "summary": "wisata-bali-be.herokuapp.com/user/wisata/2",
         "tags": [
           "User"
         ],
-        "operationId": "Putlocalhost:3000/user/wisata/2",
+        "operationId": "Putwisata-bali-be.herokuapp.com/user/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -477,11 +477,11 @@
         }
       },
       "delete": {
-        "summary": "localhost:3000/user/wisata/2",
+        "summary": "wisata-bali-be.herokuapp.com/user/wisata/2",
         "tags": [
           "User"
         ],
-        "operationId": "Deletelocalhost:3000/user/wisata/2",
+        "operationId": "Deletewisata-bali-be.herokuapp.com/user/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -509,11 +509,11 @@
     },
     "/user/profile": {
       "post": {
-        "summary": "localhost:3000/user/profile",
+        "summary": "wisata-bali-be.herokuapp.com/user/profile",
         "tags": [
           "User"
         ],
-        "operationId": "localhost:3000/user/profile",
+        "operationId": "wisata-bali-be.herokuapp.com/user/profile",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -539,11 +539,11 @@
         }
       },
       "put": {
-        "summary": "localhost:3000/user/profile",
+        "summary": "wisata-bali-be.herokuapp.com/user/profile",
         "tags": [
           "User"
         ],
-        "operationId": "Putlocalhost:3000/user/profile",
+        "operationId": "Putwisata-bali-be.herokuapp.com/user/profile",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -606,11 +606,11 @@
     },
     "/admin/images": {
       "get": {
-        "summary": "localhost:3000/admin/images",
+        "summary": "wisata-bali-be.herokuapp.com/admin/images",
         "tags": [
           "Images"
         ],
-        "operationId": "localhost:3000/admin/images",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/images",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -624,11 +624,11 @@
         }
       },
       "post": {
-        "summary": "localhost:3000/admin/images",
+        "summary": "wisata-bali-be.herokuapp.com/admin/images",
         "tags": [
           "Images"
         ],
-        "operationId": "Postlocalhost:3000/admin/images",
+        "operationId": "Postwisata-bali-be.herokuapp.com/admin/images",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -663,11 +663,11 @@
     },
     "/admin/images/9": {
       "get": {
-        "summary": "localhost:3000/admin/images/9",
+        "summary": "wisata-bali-be.herokuapp.com/admin/images/9",
         "tags": [
           "Images"
         ],
-        "operationId": "localhost:3000/admin/images/9",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/images/9",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -681,11 +681,11 @@
         }
       },
       "delete": {
-        "summary": "localhost:3000/admin/images/10",
+        "summary": "wisata-bali-be.herokuapp.com/admin/images/10",
         "tags": [
           "Images"
         ],
-        "operationId": "localhost:3000/admin/images/10",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/images/10",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -701,11 +701,11 @@
     },
     "/admin/komenRating": {
       "get": {
-        "summary": "localhost:3000/admin/komenRating",
+        "summary": "wisata-bali-be.herokuapp.com/admin/komenRating",
         "tags": [
           "KomenRating"
         ],
-        "operationId": "localhost:3000/admin/komenRating",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/komenRating",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -721,11 +721,11 @@
     },
     "/admin/komenRating/1": {
       "get": {
-        "summary": "localhost:3000/admin/komenRating/1",
+        "summary": "wisata-bali-be.herokuapp.com/admin/komenRating/1",
         "tags": [
           "KomenRating"
         ],
-        "operationId": "localhost:3000/admin/komenRating/1",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/komenRating/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -739,11 +739,11 @@
         }
       },
       "delete": {
-        "summary": "localhost:3000/admin/komenRating/11",
+        "summary": "wisata-bali-be.herokuapp.com/admin/komenRating/11",
         "tags": [
           "KomenRating"
         ],
-        "operationId": "localhost:3000/admin/komenRating/11",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/komenRating/11",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -759,11 +759,11 @@
     },
     "/admin/categories": {
       "get": {
-        "summary": "localhost:3000/admin/categories",
+        "summary": "wisata-bali-be.herokuapp.com/admin/categories",
         "tags": [
           "Categories"
         ],
-        "operationId": "localhost:3000/admin/categories",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/categories",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -777,11 +777,11 @@
         }
       },
       "post": {
-        "summary": "localhost:3000/admin/categories",
+        "summary": "wisata-bali-be.herokuapp.com/admin/categories",
         "tags": [
           "Categories"
         ],
-        "operationId": "Postlocalhost:3000/admin/categories",
+        "operationId": "Postwisata-bali-be.herokuapp.com/admin/categories",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -808,11 +808,11 @@
     },
     "/admin/categories/1": {
       "get": {
-        "summary": "localhost:3000/admin/categories/1",
+        "summary": "wisata-bali-be.herokuapp.com/admin/categories/1",
         "tags": [
           "Categories"
         ],
-        "operationId": "localhost:3000/admin/categories/1",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/categories/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -828,11 +828,11 @@
     },
     "/admin/categories/2": {
       "delete": {
-        "summary": "localhost:3000/admin/categories/2",
+        "summary": "wisata-bali-be.herokuapp.com/admin/categories/2",
         "tags": [
           "Categories"
         ],
-        "operationId": "localhost:3000/admin/categories/2",
+        "operationId": "wisata-bali-be.herokuapp.com/admin/categories/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -846,11 +846,11 @@
         }
       },
       "put": {
-        "summary": "localhost:3000/admin/categories/2",
+        "summary": "wisata-bali-be.herokuapp.com/admin/categories/2",
         "tags": [
           "Categories"
         ],
-        "operationId": "Putlocalhost:3000/admin/categories/2",
+        "operationId": "Putwisata-bali-be.herokuapp.com/admin/categories/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -877,11 +877,11 @@
     },
     "/admin": {
       "get": {
-        "summary": "localhost:3000/admin",
+        "summary": "wisata-bali-be.herokuapp.com/admin",
         "tags": [
           "Admin"
         ],
-        "operationId": "localhost:3000/admin",
+        "operationId": "wisata-bali-be.herokuapp.com/admin",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -897,11 +897,11 @@
     },
     "/home": {
       "get": {
-        "summary": "localhost:3000/home",
+        "summary": "wisata-bali-be.herokuapp.com/home",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/home",
+        "operationId": "wisata-bali-be.herokuapp.com/home",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -917,11 +917,11 @@
     },
     "/home/logout": {
       "post": {
-        "summary": "localhost:3000/logout",
+        "summary": "wisata-bali-be.herokuapp.com/logout",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/logout",
+        "operationId": "wisata-bali-be.herokuapp.com/logout",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -937,11 +937,11 @@
     },
     "/home/login": {
       "post": {
-        "summary": "localhost:3000/login",
+        "summary": "wisata-bali-be.herokuapp.com/login",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/login",
+        "operationId": "wisata-bali-be.herokuapp.com/login",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -976,11 +976,11 @@
     },
     "/home/register": {
       "post": {
-        "summary": "localhost:3000/home/register",
+        "summary": "wisata-bali-be.herokuapp.com/home/register",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/home/register",
+        "operationId": "wisata-bali-be.herokuapp.com/home/register",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1021,11 +1021,11 @@
     },
     "/home/2": {
       "get": {
-        "summary": "localhost:3000/home/2",
+        "summary": "wisata-bali-be.herokuapp.com/home/2",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/home/2",
+        "operationId": "wisata-bali-be.herokuapp.com/home/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1041,11 +1041,11 @@
     },
     "/home/category": {
       "get": {
-        "summary": "localhost:3000/home/category",
+        "summary": "wisata-bali-be.herokuapp.com/home/category",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/home/category",
+        "operationId": "wisata-bali-be.herokuapp.com/home/category",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1061,11 +1061,11 @@
     },
     "/home/category/1": {
       "get": {
-        "summary": "localhost:3000/home/category/1 Copy",
+        "summary": "wisata-bali-be.herokuapp.com/home/category/1 Copy",
         "tags": [
           "Home"
         ],
-        "operationId": "localhost:3000/home/category/1Copy",
+        "operationId": "wisata-bali-be.herokuapp.com/home/category/1Copy",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1081,8 +1081,8 @@
     }
   },
   "definitions": {
-    "localhost:3000/user/wisata/2request": {
-      "title": "localhost:3000/user/wisata/2request",
+    "wisata-bali-be.herokuapp.com/user/wisata/2request": {
+      "title": "wisata-bali-be.herokuapp.com/user/wisata/2request",
       "example": {
         "userId": 5
       },
