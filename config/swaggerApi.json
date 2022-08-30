@@ -1,0 +1,1124 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "Wisata-Bali",
+    "contact": {}
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "securityDefinitions": {},
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/admin/wisata": {
+      "get": {
+        "summary": "localhost:3000/admin/wisata",
+        "tags": [
+          "Wisata"
+        ],
+        "operationId": "localhost:3000/admin/wisata",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "summary": "localhost:3000/admin/wisata",
+        "tags": [
+          "Wisata"
+        ],
+        "operationId": "Postlocalhost:3000/admin/wisata",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "alamat",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "deskripsi",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "categoryId",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/wisata/2": {
+      "get": {
+        "summary": "localhost:3000/admin/wisata/2",
+        "tags": [
+          "Wisata"
+        ],
+        "operationId": "localhost:3000/admin/wisata/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "put": {
+        "summary": "localhost:3000/admin/wisata/2",
+        "tags": [
+          "Wisata"
+        ],
+        "operationId": "Putlocalhost:3000/admin/wisata/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "alamat",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "deskripsi",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "categoryId",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/wisata/1": {
+      "delete": {
+        "summary": "localhost:3000/admin/wisata/3",
+        "tags": [
+          "Wisata"
+        ],
+        "operationId": "localhost:3000/admin/wisata/3",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/users": {
+      "get": {
+        "summary": "localhost:3000/admin/users",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/admin/users",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "summary": "localhost:3000/admin/users",
+        "tags": [
+          "User"
+        ],
+        "operationId": "Postlocalhost:3000/admin/users",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "email",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "pass",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/users/1": {
+      "get": {
+        "summary": "localhost:3000/admin/users/1",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/admin/users/1",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "put": {
+        "summary": "localhost:3000/admin/users/1",
+        "tags": [
+          "User"
+        ],
+        "operationId": "Putlocalhost:3000/admin/users/1",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "level",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/users/3": {
+      "delete": {
+        "summary": "localhost:3000/admin/users/3",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/admin/users/3",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/user": {
+      "get": {
+        "summary": "localhost:3000/user",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/user",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/user/category/2": {
+      "get": {
+        "summary": "localhost:3000/user/category/2",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/user/category/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/user/wisata/4": {
+      "post": {
+        "summary": "localhost:3000/user/wisata/2",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/user/wisata/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/localhost%3A3000~1user~1wisata~12request"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/user/wisata/addKomentar/3": {
+      "post": {
+        "summary": "localhost:3000/user/wisata/addKomentar/3",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/user/wisata/addKomentar/3",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "rating",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "kometar",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/user/wisata/5": {
+      "put": {
+        "summary": "localhost:3000/user/wisata/2",
+        "tags": [
+          "User"
+        ],
+        "operationId": "Putlocalhost:3000/user/wisata/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "rating",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "kometar",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "delete": {
+        "summary": "localhost:3000/user/wisata/2",
+        "tags": [
+          "User"
+        ],
+        "operationId": "Deletelocalhost:3000/user/wisata/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/user/profile": {
+      "post": {
+        "summary": "localhost:3000/user/profile",
+        "tags": [
+          "User"
+        ],
+        "operationId": "localhost:3000/user/profile",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "put": {
+        "summary": "localhost:3000/user/profile",
+        "tags": [
+          "User"
+        ],
+        "operationId": "Putlocalhost:3000/user/profile",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "emailCookie",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "email",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "pass",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "images",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/images": {
+      "get": {
+        "summary": "localhost:3000/admin/images",
+        "tags": [
+          "Images"
+        ],
+        "operationId": "localhost:3000/admin/images",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "summary": "localhost:3000/admin/images",
+        "tags": [
+          "Images"
+        ],
+        "operationId": "Postlocalhost:3000/admin/images",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "wisataId",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          },
+          {
+            "name": "images",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/images/9": {
+      "get": {
+        "summary": "localhost:3000/admin/images/9",
+        "tags": [
+          "Images"
+        ],
+        "operationId": "localhost:3000/admin/images/9",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "delete": {
+        "summary": "localhost:3000/admin/images/10",
+        "tags": [
+          "Images"
+        ],
+        "operationId": "localhost:3000/admin/images/10",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/komenRating": {
+      "get": {
+        "summary": "localhost:3000/admin/komenRating",
+        "tags": [
+          "KomenRating"
+        ],
+        "operationId": "localhost:3000/admin/komenRating",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/komenRating/1": {
+      "get": {
+        "summary": "localhost:3000/admin/komenRating/1",
+        "tags": [
+          "KomenRating"
+        ],
+        "operationId": "localhost:3000/admin/komenRating/1",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "delete": {
+        "summary": "localhost:3000/admin/komenRating/11",
+        "tags": [
+          "KomenRating"
+        ],
+        "operationId": "localhost:3000/admin/komenRating/11",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/categories": {
+      "get": {
+        "summary": "localhost:3000/admin/categories",
+        "tags": [
+          "Categories"
+        ],
+        "operationId": "localhost:3000/admin/categories",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "summary": "localhost:3000/admin/categories",
+        "tags": [
+          "Categories"
+        ],
+        "operationId": "Postlocalhost:3000/admin/categories",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/categories/1": {
+      "get": {
+        "summary": "localhost:3000/admin/categories/1",
+        "tags": [
+          "Categories"
+        ],
+        "operationId": "localhost:3000/admin/categories/1",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin/categories/2": {
+      "delete": {
+        "summary": "localhost:3000/admin/categories/2",
+        "tags": [
+          "Categories"
+        ],
+        "operationId": "localhost:3000/admin/categories/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      },
+      "put": {
+        "summary": "localhost:3000/admin/categories/2",
+        "tags": [
+          "Categories"
+        ],
+        "operationId": "Putlocalhost:3000/admin/categories/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/admin": {
+      "get": {
+        "summary": "localhost:3000/admin",
+        "tags": [
+          "Admin"
+        ],
+        "operationId": "localhost:3000/admin",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home": {
+      "get": {
+        "summary": "localhost:3000/home",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/home",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home/logout": {
+      "post": {
+        "summary": "localhost:3000/logout",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/logout",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home/login": {
+      "post": {
+        "summary": "localhost:3000/login",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/login",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "pass",
+            "in": "formData",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home/register": {
+      "post": {
+        "summary": "localhost:3000/home/register",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/home/register",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "parameters": [
+          {
+            "name": "nama",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "email",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "pass",
+            "in": "formData",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home/2": {
+      "get": {
+        "summary": "localhost:3000/home/2",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/home/2",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home/category": {
+      "get": {
+        "summary": "localhost:3000/home/category",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/home/category",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/home/category/1": {
+      "get": {
+        "summary": "localhost:3000/home/category/1 Copy",
+        "tags": [
+          "Home"
+        ],
+        "operationId": "localhost:3000/home/category/1Copy",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "localhost:3000/user/wisata/2request": {
+      "title": "localhost:3000/user/wisata/2request",
+      "example": {
+        "userId": 5
+      },
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "required": [
+        "userId"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "name": "Wisata"
+    },
+    {
+      "name": "User"
+    },
+    {
+      "name": "Images"
+    },
+    {
+      "name": "KomenRating"
+    },
+    {
+      "name": "Categories"
+    },
+    {
+      "name": "Admin"
+    },
+    {
+      "name": "Home"
+    }
+  ]
+}

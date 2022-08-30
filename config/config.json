@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "admin",
-    "database": "wisata_bali_development",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "eqtxhemdrzlacv",
+    "password": "829704cfc401003ce2cd5a7929d128a6eb187effe2ea671e4e91dd4fe5b98f03",
+    "database": "d1q1tu30m4o20l",
+    "host": "ec2-107-23-76-12.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+  }
   },
   "test": {
     "username": "root",
@@ -14,10 +20,17 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "eqtxhemdrzlacv",
+    "password": "829704cfc401003ce2cd5a7929d128a6eb187effe2ea671e4e91dd4fe5b98f03",
+    "database": "d1q1tu30m4o20l",
+    "host": "ec2-107-23-76-12.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+  }
   }
 }
+
