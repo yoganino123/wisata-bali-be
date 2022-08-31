@@ -5,7 +5,7 @@
     "title": "Wisata-Bali",
     "contact": {}
   },
-  "host": "wisata-bali-be.herokuapp.com",
+  "host": "https://wisata-bali-be.herokuapp.com/",
   "basePath": "/",
   "securityDefinitions": {},
   "schemes": [
@@ -20,11 +20,11 @@
   "paths": {
     "/admin/wisata": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/wisata",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/wisata",
         "tags": [
           "Wisata"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/wisata",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/wisata",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -38,11 +38,11 @@
         }
       },
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/wisata",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/wisata",
         "tags": [
           "Wisata"
         ],
-        "operationId": "Postwisata-bali-be.herokuapp.com/admin/wisata",
+        "operationId": "Posthttps://wisata-bali-be.herokuapp.com/admin/wisata",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -91,11 +91,11 @@
     },
     "/admin/wisata/2": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/wisata/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/wisata/2",
         "tags": [
           "Wisata"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/wisata/2",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -109,11 +109,11 @@
         }
       },
       "put": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/wisata/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/wisata/2",
         "tags": [
           "Wisata"
         ],
-        "operationId": "Putwisata-bali-be.herokuapp.com/admin/wisata/2",
+        "operationId": "Puthttps://wisata-bali-be.herokuapp.com/admin/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -162,11 +162,11 @@
     },
     "/admin/wisata/1": {
       "delete": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/wisata/3",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/wisata/3",
         "tags": [
           "Wisata"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/wisata/3",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/wisata/3",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -182,11 +182,11 @@
     },
     "/admin/users": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/users",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/users",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/users",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/users",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -200,11 +200,11 @@
         }
       },
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/users",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/users",
         "tags": [
           "User"
         ],
-        "operationId": "Postwisata-bali-be.herokuapp.com/admin/users",
+        "operationId": "Posthttps://wisata-bali-be.herokuapp.com/admin/users",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -246,11 +246,11 @@
     },
     "/admin/users/1": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/users/1",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/users/1",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/users/1",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/users/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -264,11 +264,11 @@
         }
       },
       "put": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/users/1",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/users/1",
         "tags": [
           "User"
         ],
-        "operationId": "Putwisata-bali-be.herokuapp.com/admin/users/1",
+        "operationId": "Puthttps://wisata-bali-be.herokuapp.com/admin/users/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -295,11 +295,11 @@
     },
     "/admin/users/3": {
       "delete": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/users/3",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/users/3",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/users/3",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/users/3",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -315,11 +315,11 @@
     },
     "/user": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/user",
+        "summary": "https://wisata-bali-be.herokuapp.com/user",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/user",
+        "operationId": "https://wisata-bali-be.herokuapp.com/user",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -335,11 +335,11 @@
     },
     "/user/category/2": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/user/category/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/category/2",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/user/category/2",
+        "operationId": "https://wisata-bali-be.herokuapp.com/user/category/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -355,11 +355,11 @@
     },
     "/user/wisata/4": {
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/user/wisata/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/wisata/2",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/user/wisata/2",
+        "operationId": "https://wisata-bali-be.herokuapp.com/user/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -385,11 +385,11 @@
     },
     "/user/wisata/addKomentar/3": {
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/user/wisata/addKomentar/3",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/wisata/addKomentar/3",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/user/wisata/addKomentar/3",
+        "operationId": "https://wisata-bali-be.herokuapp.com/user/wisata/addKomentar/3",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -432,11 +432,11 @@
     },
     "/user/wisata/5": {
       "put": {
-        "summary": "wisata-bali-be.herokuapp.com/user/wisata/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/wisata/2",
         "tags": [
           "User"
         ],
-        "operationId": "Putwisata-bali-be.herokuapp.com/user/wisata/2",
+        "operationId": "Puthttps://wisata-bali-be.herokuapp.com/user/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -477,11 +477,11 @@
         }
       },
       "delete": {
-        "summary": "wisata-bali-be.herokuapp.com/user/wisata/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/wisata/2",
         "tags": [
           "User"
         ],
-        "operationId": "Deletewisata-bali-be.herokuapp.com/user/wisata/2",
+        "operationId": "Deletehttps://wisata-bali-be.herokuapp.com/user/wisata/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -509,11 +509,11 @@
     },
     "/user/profile": {
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/user/profile",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/profile",
         "tags": [
           "User"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/user/profile",
+        "operationId": "https://wisata-bali-be.herokuapp.com/user/profile",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -539,11 +539,11 @@
         }
       },
       "put": {
-        "summary": "wisata-bali-be.herokuapp.com/user/profile",
+        "summary": "https://wisata-bali-be.herokuapp.com/user/profile",
         "tags": [
           "User"
         ],
-        "operationId": "Putwisata-bali-be.herokuapp.com/user/profile",
+        "operationId": "Puthttps://wisata-bali-be.herokuapp.com/user/profile",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -606,11 +606,11 @@
     },
     "/admin/images": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/images",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/images",
         "tags": [
           "Images"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/images",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/images",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -624,11 +624,11 @@
         }
       },
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/images",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/images",
         "tags": [
           "Images"
         ],
-        "operationId": "Postwisata-bali-be.herokuapp.com/admin/images",
+        "operationId": "Posthttps://wisata-bali-be.herokuapp.com/admin/images",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -663,11 +663,11 @@
     },
     "/admin/images/9": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/images/9",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/images/9",
         "tags": [
           "Images"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/images/9",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/images/9",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -681,11 +681,11 @@
         }
       },
       "delete": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/images/10",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/images/10",
         "tags": [
           "Images"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/images/10",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/images/10",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -701,11 +701,11 @@
     },
     "/admin/komenRating": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/komenRating",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/komenRating",
         "tags": [
           "KomenRating"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/komenRating",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/komenRating",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -721,11 +721,11 @@
     },
     "/admin/komenRating/1": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/komenRating/1",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/komenRating/1",
         "tags": [
           "KomenRating"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/komenRating/1",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/komenRating/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -739,11 +739,11 @@
         }
       },
       "delete": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/komenRating/11",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/komenRating/11",
         "tags": [
           "KomenRating"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/komenRating/11",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/komenRating/11",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -759,11 +759,11 @@
     },
     "/admin/categories": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/categories",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/categories",
         "tags": [
           "Categories"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/categories",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/categories",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -777,11 +777,11 @@
         }
       },
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/categories",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/categories",
         "tags": [
           "Categories"
         ],
-        "operationId": "Postwisata-bali-be.herokuapp.com/admin/categories",
+        "operationId": "Posthttps://wisata-bali-be.herokuapp.com/admin/categories",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -808,11 +808,11 @@
     },
     "/admin/categories/1": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/categories/1",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/categories/1",
         "tags": [
           "Categories"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/categories/1",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/categories/1",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -828,11 +828,11 @@
     },
     "/admin/categories/2": {
       "delete": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/categories/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/categories/2",
         "tags": [
           "Categories"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin/categories/2",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin/categories/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -846,11 +846,11 @@
         }
       },
       "put": {
-        "summary": "wisata-bali-be.herokuapp.com/admin/categories/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin/categories/2",
         "tags": [
           "Categories"
         ],
-        "operationId": "Putwisata-bali-be.herokuapp.com/admin/categories/2",
+        "operationId": "Puthttps://wisata-bali-be.herokuapp.com/admin/categories/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -877,11 +877,11 @@
     },
     "/admin": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/admin",
+        "summary": "https://wisata-bali-be.herokuapp.com/admin",
         "tags": [
           "Admin"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/admin",
+        "operationId": "https://wisata-bali-be.herokuapp.com/admin",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -897,11 +897,11 @@
     },
     "/home": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/home",
+        "summary": "https://wisata-bali-be.herokuapp.com/home",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/home",
+        "operationId": "https://wisata-bali-be.herokuapp.com/home",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -917,11 +917,11 @@
     },
     "/home/logout": {
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/logout",
+        "summary": "https://wisata-bali-be.herokuapp.com/logout",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/logout",
+        "operationId": "https://wisata-bali-be.herokuapp.com/logout",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -937,11 +937,11 @@
     },
     "/home/login": {
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/login",
+        "summary": "https://wisata-bali-be.herokuapp.com/login",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/login",
+        "operationId": "https://wisata-bali-be.herokuapp.com/login",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -976,11 +976,11 @@
     },
     "/home/register": {
       "post": {
-        "summary": "wisata-bali-be.herokuapp.com/home/register",
+        "summary": "https://wisata-bali-be.herokuapp.com/home/register",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/home/register",
+        "operationId": "https://wisata-bali-be.herokuapp.com/home/register",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1021,11 +1021,11 @@
     },
     "/home/2": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/home/2",
+        "summary": "https://wisata-bali-be.herokuapp.com/home/2",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/home/2",
+        "operationId": "https://wisata-bali-be.herokuapp.com/home/2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1041,11 +1041,11 @@
     },
     "/home/category": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/home/category",
+        "summary": "https://wisata-bali-be.herokuapp.com/home/category",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/home/category",
+        "operationId": "https://wisata-bali-be.herokuapp.com/home/category",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1061,11 +1061,11 @@
     },
     "/home/category/1": {
       "get": {
-        "summary": "wisata-bali-be.herokuapp.com/home/category/1 Copy",
+        "summary": "https://wisata-bali-be.herokuapp.com/home/category/1 Copy",
         "tags": [
           "Home"
         ],
-        "operationId": "wisata-bali-be.herokuapp.com/home/category/1Copy",
+        "operationId": "https://wisata-bali-be.herokuapp.com/home/category/1Copy",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -1081,8 +1081,8 @@
     }
   },
   "definitions": {
-    "wisata-bali-be.herokuapp.com/user/wisata/2request": {
-      "title": "wisata-bali-be.herokuapp.com/user/wisata/2request",
+    "https://wisata-bali-be.herokuapp.com/user/wisata/2request": {
+      "title": "https://wisata-bali-be.herokuapp.com/user/wisata/2request",
       "example": {
         "userId": 5
       },
